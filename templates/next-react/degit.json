@@ -1,0 +1,16 @@
+[
+  {
+    "action": "clone",
+    "src": "soyhuce/shared/templates/base-project"
+  },
+  {
+    "action": "clone",
+    "src": "soyhuce/shared/templates/next-react"
+  },
+  {
+    "action": "remove",
+    "files": [
+      "degit.json"
+    ]
+  }
+]

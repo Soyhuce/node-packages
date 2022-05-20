@@ -1,0 +1,29 @@
+{
+  "status": "OK",
+  "code": 200,
+  "total": 2,
+  "data": [
+    {
+      "street": "83781 Rogahn Fords",
+      "streetName": "Rodriguez Wall",
+      "buildingNumber": "6831",
+      "city": "New Haven",
+      "zipcode": "38340-1690",
+      "country": "Argentina",
+      "countyCode": "NF",
+      "latitude": -59.932657,
+      "longitude": -169.912894
+    },
+    {
+      "street": "160 Altenwerth Island",
+      "streetName": "Prohaska Estates",
+      "buildingNumber": "6388",
+      "city": "Stokesfurt",
+      "zipcode": "64683",
+      "country": "Lao People's Democratic Republic",
+      "countyCode": "DO",
+      "latitude": -13.182116,
+      "longitude": 25.513776
+    }
+  ]
+}

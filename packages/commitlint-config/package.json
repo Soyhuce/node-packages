@@ -1,0 +1,15 @@
+{
+  "name": "@soyhuce/commitlint-config",
+  "description": "A shareable commitlint configuration",
+  "author": "Soyhuce <techteam@soyhuce.fr> (https://soyhuce.fr)",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "commitlint",
+    "commitlint-config"
+  ],
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.0.0"
+  }
+}

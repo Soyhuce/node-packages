@@ -1,0 +1,128 @@
+name: ci-pr
+
+on:
+  pull_request:
+    branches: [main]
+
+env:
+  CI: true
+  PNPM_CACHE_FOLDER: .pnpm-store
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: setup node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: install pnpm
+        run: |
+          npm i pnpm@latest -g
+
+      - name: load cache
+        uses: actions/cache@v3.0.1
+        with:
+          path: |
+            ./.pnpm-store
+          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}
+
+      - name: setup pnpm config
+        run: |
+          pnpm config set store-dir $PNPM_CACHE_FOLDER
+
+      - name: install dependencies
+        run: |
+          pnpm install --ignore-scripts
+
+      - name: run test suite
+        run: |
+          pnpm lint
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: setup node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: install pnpm
+        run: |
+          npm i pnpm@latest -g
+
+      - name: load cache
+        uses: actions/cache@v3.0.1
+        with:
+          path: |
+            ./.pnpm-store
+          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}
+
+      - name: setup pnpm config
+        run: |
+          pnpm config set store-dir $PNPM_CACHE_FOLDER
+
+      - name: install dependencies
+        run: |
+          pnpm install --ignore-scripts
+
+      - name: build packages
+        run: |
+          pnpm build:packages
+
+      - name: run test suite
+        run: |
+          pnpm test
+
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: setup node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: install pnpm
+        run: |
+          npm i pnpm@latest -g
+
+      - name: load cache
+        uses: actions/cache@v3.0.1
+        with:
+          path: |
+            ./.pnpm-store
+          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}
+
+      - name: setup pnpm config
+        run: |
+          pnpm config set store-dir $PNPM_CACHE_FOLDER
+
+      - name: install dependencies
+        run: |
+          pnpm install --ignore-scripts
+
+      - name: check vulnerabilities
+        run: |
+          pnpm ci:security

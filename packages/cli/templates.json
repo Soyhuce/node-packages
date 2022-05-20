@@ -1,0 +1,10 @@
+[
+  {
+    "name": "base-project",
+    "url" : "https://github.com/soyhuce/node-packages/templates/base-project"
+  },
+  {
+    "name": "next-react",
+    "url" : "https://github.com/soyhuce/node-packages/templates/next-react"
+  }
+]

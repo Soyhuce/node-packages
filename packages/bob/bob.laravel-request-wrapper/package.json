@@ -1,0 +1,29 @@
+{
+  "name": "@soyhuce/bob.laravel-request-wrapper",
+  "description": "Request Wrapper for Laravel",
+  "author": "Soyhuce <techteam@soyhuce.fr> (https://soyhuce.fr)",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
+  "keywords": [
+    "laravel",
+    "request",
+    "wrapper",
+    "soyhuce",
+    "bob"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test:unit": "jest --coverage"
+  },
+  "dependencies": {
+    "@soyhuce/bob.case-converter": "workspace:*"
+  }
+}

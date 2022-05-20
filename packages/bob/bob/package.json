@@ -1,0 +1,31 @@
+{
+  "name": "@soyhuce/bob",
+  "description": "Utility library",
+  "author": "Soyhuce <techteam@soyhuce.fr> (https://soyhuce.fr)",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
+  "keywords": [
+    "utility",
+    "libray",
+    "soyhuce",
+    "bob"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@soyhuce/bob.capitalize": "workspace:*",
+    "@soyhuce/bob.case-converter": "workspace:*",
+    "@soyhuce/bob.json-to-form-data": "workspace:*",
+    "@soyhuce/bob.laravel-request-wrapper": "workspace:*",
+    "@soyhuce/bob.sum-objects-by-key": "workspace:*"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@soyhuce/bob.sum-objects-by-key",
+  "description": "Sum objects by key",
+  "author": "Soyhuce <techteam@soyhuce.fr> (https://soyhuce.fr)",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
+  "keywords": [
+    "sum",
+    "object",
+    "key",
+    "soyhuce",
+    "bob"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test:unit": "jest --coverage"
+  }
+}

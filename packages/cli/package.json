@@ -1,0 +1,38 @@
+{
+  "name": "soyhuce",
+  "description": "CLI that generates beautiful Soyhuce project",
+  "author": "Soyhuce <techteam@soyhuce.fr> (https://soyhuce.fr)",
+  "private": false,
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "keywords": [
+    "cli",
+    "soyhuce"
+  ],
+  "files": [
+    "dist/**"
+  ],
+  "bin": {
+    "soyhuce": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "degit": "2.8.4",
+    "fs-extra": "^10.1.0",
+    "prompts": "^2.4.2",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "@types/degit": "2.8.3",
+    "@types/fs-extra": "^9.0.13",
+    "@types/prompts": "^2.0.14",
+    "@types/yargs": "^17.0.10"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

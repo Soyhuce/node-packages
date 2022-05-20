@@ -1,0 +1,17 @@
+{
+  "name": "@soyhuce/eslint-config-jest",
+  "description": "A shareable ESLint configuration for Jest",
+  "author": "Soyhuce <techteam@soyhuce.fr> (https://soyhuce.fr)",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "jest",
+    "eslint-config-jest"
+  ],
+  "dependencies": {
+    "eslint-plugin-jest": "^26.2.2",
+    "eslint-plugin-testing-library": "^5.5.0"
+  }
+}

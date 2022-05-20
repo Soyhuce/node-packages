@@ -1,0 +1,19 @@
+{
+  "name": "@soyhuce/stylelint-config-scss",
+  "description": "A shareable Stylelint configuration for Sass",
+  "author": "Soyhuce <techteam@soyhuce.fr> (https://soyhuce.fr)",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "stylelint",
+    "sass",
+    "scss",
+    "stylelint-config-scss"
+  ],
+  "dependencies": {
+    "postcss": "^8.4.14",
+    "postcss-scss": "^4.0.4",
+    "stylelint-scss": "^4.2.0"
+  }
+}
