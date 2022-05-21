@@ -11,7 +11,7 @@ pnpm add @soyhuce/types
 ## Usage
 
 ```js
-import T from '@soyhuce/types'
+import { Nullable, Primitive, isPrimitive, … } from '@soyhuce/types'
 ```
 
 ## License
