@@ -14,7 +14,7 @@
     "bin/**"
   ],
   "bin": {
-    "soyhuce": "./dist/index.js"
+    "soyhuce": "./bin/index.js"
   },
   "scripts": {
     "build": "tsc",
