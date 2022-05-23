@@ -59,7 +59,7 @@ const createCmd: CommandModule<Record<string, never>, CreateArgs> = {
       const choices = { ...argv, ...prompt }
       if (choices.name && choices.template) {
         const selectedTemplateEmitter = degit(choices.template, {
-          cache: true,
+          cache: false,
           force: true
         })
 
