@@ -224,7 +224,7 @@ importers:
       '@soyhuce/eslint-config': ^2.0.0
       '@soyhuce/eslint-config-jest': ^2.0.0
       '@soyhuce/eslint-config-react': ^2.0.0
-      '@soyhuce/playwright-config': ^2.0.0
+      '@soyhuce/playwright-config': ^2.1.0
       '@soyhuce/prettier-config': ^2.0.0
       '@soyhuce/stylelint-config': ^2.0.0
       '@soyhuce/stylelint-config-scss': ^2.0.0
