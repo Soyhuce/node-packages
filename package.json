@@ -45,6 +45,7 @@
     "@soyhuce/commitlint-config": "workspace:*",
     "@soyhuce/eslint-config": "workspace:*",
     "@soyhuce/eslint-config-jest": "workspace:*",
+    "@soyhuce/eslint-config-playwright": "workspace:*",
     "@soyhuce/eslint-config-react": "workspace:*",
     "@soyhuce/prettier-config": "workspace:*",
     "@soyhuce/stylelint-config": "workspace:*",

@@ -17,6 +17,7 @@ importers:
       '@soyhuce/commitlint-config': workspace:*
       '@soyhuce/eslint-config': workspace:*
       '@soyhuce/eslint-config-jest': workspace:*
+      '@soyhuce/eslint-config-playwright': workspace:*
       '@soyhuce/eslint-config-react': workspace:*
       '@soyhuce/prettier-config': workspace:*
       '@soyhuce/stylelint-config': workspace:*
@@ -59,6 +60,7 @@ importers:
       '@soyhuce/commitlint-config': link:packages/commitlint-config
       '@soyhuce/eslint-config': link:packages/eslint-config
       '@soyhuce/eslint-config-jest': link:packages/eslint-config-jest
+      '@soyhuce/eslint-config-playwright': link:packages/eslint-config-playwright
       '@soyhuce/eslint-config-react': link:packages/eslint-config-react
       '@soyhuce/prettier-config': link:packages/prettier-config
       '@soyhuce/stylelint-config': link:packages/stylelint-config
@@ -170,6 +172,12 @@ importers:
     dependencies:
       eslint-plugin-jest: 26.2.2
       eslint-plugin-testing-library: 5.5.0
+
+  packages/eslint-config-playwright:
+    specifiers:
+      eslint-plugin-playwright: ^0.9.0
+    dependencies:
+      eslint-plugin-playwright: 0.9.0
 
   packages/eslint-config-react:
     specifiers:
@@ -9128,6 +9136,18 @@ packages:
       jsx-ast-utils: 3.3.0
       language-tags: 1.0.5
       minimatch: 3.1.2
+    dev: false
+
+  /eslint-plugin-playwright/0.9.0:
+    resolution: {integrity: sha512-5bxAhiKjRASSgtQ4IipwtdesgQ8GT9m0PK61Uqxclu/TpiZS4eaAksydVeiiSPIOQph5GvuuLA7+oBS0WkWO6w==}
+    peerDependencies:
+      eslint: '>=7'
+      eslint-plugin-jest: '>=24'
+    peerDependenciesMeta:
+      eslint:
+        optional: true
+      eslint-plugin-jest:
+        optional: true
     dev: false
 
   /eslint-plugin-prettier/4.0.0_ttcikbw5yztdadzhevg6ml5cuy:
