@@ -9,7 +9,7 @@
     "prepare": "husky install",
     "preinstall": "npx -y only-allow pnpm",
     "postinstall": "pnpm run build:packages",
-    "clear": "rimraf **/{node_modules,coverage,dist,storybook-static,.next,out}",
+    "clear": "rimraf **/{node_modules,coverage,dist,storybook-static,.next,out,bin}",
     "build:packages": "pnpm run -r --if-present --filter='./packages/**' build",
     "dev:packages": "pnpm run -r --if-present --parallel --aggregate-output --filter='./packages/**' dev",
     "build:templates": "pnpm run -r --if-present --filter='./templates/**' build",
