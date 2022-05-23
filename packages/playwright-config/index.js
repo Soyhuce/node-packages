@@ -1,7 +1,8 @@
 'use strict'
+/* eslint @typescript-eslint/no-var-requires: "off" */
 
 // @ts-check
-import { devices } from '@playwright/test'
+const { devices } = require('@playwright/test')
 
 /** @type {import('@playwright/test').PlaywrightTestConfig} */
 module.exports = {
