@@ -25,7 +25,7 @@
     "stylelint:fix": "pnpm run stylelint --fix",
     "test": "pnpm run test:unit && pnpm test:e2e",
     "test:unit": "pnpm run -r --if-present test:unit",
-    "test:e2e": "echo \"Error: no test specified\" && exit 0",
+    "test:e2e": "pnpm run -r --if-present test:e2e",
     "security:fix": "pnpm audit --audit-level=high --fix",
     "cz": "git-cz",
     "changeset": "changeset",
@@ -72,7 +72,7 @@
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
     "stylelint": "^14.8.3",
-    "ts-jest": "28.0.2",
+    "ts-jest": "^28.0.2",
     "typescript": "^4.6.4"
   },
   "config": {
