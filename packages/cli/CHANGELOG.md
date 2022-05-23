@@ -1,5 +1,11 @@
 # soyhuce
 
+## 2.1.2
+
+### Patch Changes
+
+- f653fc1: remove degit cache
+
 ## 2.1.1
 
 ### Patch Changes
