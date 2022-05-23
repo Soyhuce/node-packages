@@ -4,10 +4,6 @@
     "src": "https://github.com/soyhuce/node-packages/templates/base-project"
   },
   {
-    "action": "clone",
-    "src": "https://github.com/soyhuce/node-packages/templates/next-react"
-  },
-  {
     "action": "remove",
     "files": [
       "degit.json"
