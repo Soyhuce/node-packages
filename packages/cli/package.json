@@ -5,13 +5,13 @@
   "private": false,
   "version": "2.0.0",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "bin/index.js",
   "keywords": [
     "cli",
     "soyhuce"
   ],
   "files": [
-    "dist/**"
+    "bin/**"
   ],
   "bin": {
     "soyhuce": "./dist/index.js"
