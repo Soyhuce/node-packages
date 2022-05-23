@@ -3,7 +3,7 @@
   "description": "CLI that generates beautiful Soyhuce project",
   "author": "Soyhuce <techteam@soyhuce.fr> (https://soyhuce.fr)",
   "private": false,
-  "version": "0.1.0",
+  "version": "2.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "keywords": [
