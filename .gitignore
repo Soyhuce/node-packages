@@ -3,6 +3,7 @@ dist
 dist-ssr
 storybook-static
 build
+bin
 
 # NEXT.JS
 .next/

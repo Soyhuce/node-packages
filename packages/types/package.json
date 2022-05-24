@@ -1,6 +1,6 @@
 {
-  "name": "@soyhuce/bob.json-to-form-data",
-  "description": "Convert JSON to FormData",
+  "name": "@soyhuce/types",
+  "description": "Types library",
   "author": "Soyhuce <techteam@soyhuce.fr> (https://soyhuce.fr)",
   "version": "2.0.0",
   "license": "MIT",
@@ -12,15 +12,13 @@
     "*.d.ts"
   ],
   "keywords": [
-    "json",
-    "form-data",
-    "converter",
+    "utility",
+    "libray",
     "soyhuce",
-    "bob"
+    "types"
   ],
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
-    "test:unit": "jest --coverage"
+    "dev": "tsc --watch"
   }
 }

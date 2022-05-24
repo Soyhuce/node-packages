@@ -1,4 +1,8 @@
 **/node_modules/
 **/dist/
+**/.out/
+**/bin/
+**/.next/
 **/coverage/
 **/storybook-static/
+!.storybook

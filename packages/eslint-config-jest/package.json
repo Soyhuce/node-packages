@@ -2,7 +2,7 @@
   "name": "@soyhuce/eslint-config-jest",
   "description": "A shareable ESLint configuration for Jest",
   "author": "Soyhuce <techteam@soyhuce.fr> (https://soyhuce.fr)",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "license": "MIT",
   "main": "index.js",
   "keywords": [

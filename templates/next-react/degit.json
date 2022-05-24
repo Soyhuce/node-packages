@@ -1,11 +1,7 @@
 [
   {
     "action": "clone",
-    "src": "soyhuce/shared/templates/base-project"
-  },
-  {
-    "action": "clone",
-    "src": "soyhuce/shared/templates/next-react"
+    "src": "https://github.com/soyhuce/node-packages/templates/base-project"
   },
   {
     "action": "remove",
