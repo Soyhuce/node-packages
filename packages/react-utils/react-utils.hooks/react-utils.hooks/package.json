@@ -19,8 +19,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
-    "test:unit": "jest --coverage"
+    "dev": "tsc --watch"
   },
   "dependencies": {
     "@soyhuce/react-utils.hooks.use-debounce": "workspace:*",
@@ -37,6 +36,6 @@
     "@soyhuce/react-utils.hooks.use-ssr": "workspace:*",
     "@soyhuce/react-utils.hooks.use-steps": "workspace:*",
     "@soyhuce/react-utils.hooks.use-timeout": "workspace:*",
-    "@soyhuce/react-utils.hooks.use-window": "workspace:*"
+    "@soyhuce/react-utils.hooks.use-window-size": "workspace:*"
   }
 }

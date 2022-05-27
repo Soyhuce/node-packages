@@ -1,4 +1,11 @@
-const useSSR = () => undefined
+const useSSR = () => {
+  const isDOM = typeof window !== 'undefined' && window.document && window.document.documentElement
+
+  return {
+    isBrowser: isDOM,
+    isServer: !isDOM
+  }
+}
 
 export { useSSR }
 export default useSSR

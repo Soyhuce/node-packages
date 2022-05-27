@@ -27,6 +27,7 @@
   "exclude": [
     "node_modules",
     "**/mocks/**",
-    "**/**/*.test.ts"
+    "**/**/*.test.ts",
+    "**/**/*.test.tsx"
   ]
 }

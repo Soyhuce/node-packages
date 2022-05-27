@@ -235,7 +235,7 @@ importers:
       '@soyhuce/react-utils.hooks.use-ssr': workspace:*
       '@soyhuce/react-utils.hooks.use-steps': workspace:*
       '@soyhuce/react-utils.hooks.use-timeout': workspace:*
-      '@soyhuce/react-utils.hooks.use-window': workspace:*
+      '@soyhuce/react-utils.hooks.use-window-size': workspace:*
     dependencies:
       '@soyhuce/react-utils.hooks.use-debounce': link:../react-utils.hooks.useDebounce
       '@soyhuce/react-utils.hooks.use-element-size': link:../react-utils.hooks.useElementSize
@@ -251,7 +251,7 @@ importers:
       '@soyhuce/react-utils.hooks.use-ssr': link:../react-utils.hooks.useSSR
       '@soyhuce/react-utils.hooks.use-steps': link:../react-utils.hooks.useSteps
       '@soyhuce/react-utils.hooks.use-timeout': link:../react-utils.hooks.useTimeout
-      '@soyhuce/react-utils.hooks.use-window': link:../react-utils.hooks.useWindow
+      '@soyhuce/react-utils.hooks.use-window-size': link:../react-utils.hooks.useWindow
 
   packages/react-utils/react-utils.hooks/react-utils.hooks.useDebounce:
     specifiers:
@@ -265,25 +265,42 @@ importers:
       '@types/lodash.debounce': 4.0.7
 
   packages/react-utils/react-utils.hooks/react-utils.hooks.useElementSize:
-    specifiers: {}
+    specifiers:
+      '@soyhuce/react-utils.hooks.use-event-listener': workspace:*
+      '@soyhuce/react-utils.hooks.use-isomorphic-layout-effect': workspace:*
+    dependencies:
+      '@soyhuce/react-utils.hooks.use-event-listener': link:../react-utils.hooks.useEventListener
+      '@soyhuce/react-utils.hooks.use-isomorphic-layout-effect': link:../react-utils.hooks.useIsomorphicLayoutEffect
 
   packages/react-utils/react-utils.hooks/react-utils.hooks.useEventListener:
-    specifiers: {}
+    specifiers:
+      '@soyhuce/react-utils.hooks.use-isomorphic-layout-effect': workspace:*
+    dependencies:
+      '@soyhuce/react-utils.hooks.use-isomorphic-layout-effect': link:../react-utils.hooks.useIsomorphicLayoutEffect
 
   packages/react-utils/react-utils.hooks/react-utils.hooks.useIntersectionObserver:
     specifiers: {}
 
   packages/react-utils/react-utils.hooks/react-utils.hooks.useInterval:
-    specifiers: {}
+    specifiers:
+      '@soyhuce/react-utils.hooks.use-isomorphic-layout-effect': workspace:*
+    dependencies:
+      '@soyhuce/react-utils.hooks.use-isomorphic-layout-effect': link:../react-utils.hooks.useIsomorphicLayoutEffect
 
   packages/react-utils/react-utils.hooks/react-utils.hooks.useIsomorphicLayoutEffect:
     specifiers: {}
 
   packages/react-utils/react-utils.hooks/react-utils.hooks.useLocalStorage:
-    specifiers: {}
+    specifiers:
+      '@soyhuce/react-utils.hooks.use-event-listener': workspace:*
+    dependencies:
+      '@soyhuce/react-utils.hooks.use-event-listener': link:../react-utils.hooks.useEventListener
 
   packages/react-utils/react-utils.hooks/react-utils.hooks.useLockedScroll:
-    specifiers: {}
+    specifiers:
+      '@soyhuce/react-utils.hooks.use-isomorphic-layout-effect': workspace:*
+    dependencies:
+      '@soyhuce/react-utils.hooks.use-isomorphic-layout-effect': link:../react-utils.hooks.useIsomorphicLayoutEffect
 
   packages/react-utils/react-utils.hooks/react-utils.hooks.useMediaQuery:
     specifiers: {}
@@ -292,7 +309,10 @@ importers:
     specifiers: {}
 
   packages/react-utils/react-utils.hooks/react-utils.hooks.useOnClickOutside:
-    specifiers: {}
+    specifiers:
+      '@soyhuce/react-utils.hooks.use-event-listener': workspace:*
+    dependencies:
+      '@soyhuce/react-utils.hooks.use-event-listener': link:../react-utils.hooks.useEventListener
 
   packages/react-utils/react-utils.hooks/react-utils.hooks.useSSR:
     specifiers: {}
@@ -301,10 +321,18 @@ importers:
     specifiers: {}
 
   packages/react-utils/react-utils.hooks/react-utils.hooks.useTimeout:
-    specifiers: {}
+    specifiers:
+      '@soyhuce/react-utils.hooks.use-isomorphic-layout-effect': workspace:*
+    dependencies:
+      '@soyhuce/react-utils.hooks.use-isomorphic-layout-effect': link:../react-utils.hooks.useIsomorphicLayoutEffect
 
   packages/react-utils/react-utils.hooks/react-utils.hooks.useWindow:
-    specifiers: {}
+    specifiers:
+      '@soyhuce/react-utils.hooks.use-event-listener': workspace:*
+      '@soyhuce/react-utils.hooks.use-isomorphic-layout-effect': workspace:*
+    dependencies:
+      '@soyhuce/react-utils.hooks.use-event-listener': link:../react-utils.hooks.useEventListener
+      '@soyhuce/react-utils.hooks.use-isomorphic-layout-effect': link:../react-utils.hooks.useIsomorphicLayoutEffect
 
   packages/react-utils/react-utils.types:
     specifiers: {}

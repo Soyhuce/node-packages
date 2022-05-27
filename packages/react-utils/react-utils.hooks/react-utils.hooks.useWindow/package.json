@@ -1,5 +1,5 @@
 {
-  "name": "@soyhuce/react-utils.hooks.use-window",
+  "name": "@soyhuce/react-utils.hooks.use-window-size",
   "description": "React utility library",
   "author": "Soyhuce <techteam@soyhuce.fr> (https://soyhuce.fr)",
   "version": "2.0.0",
@@ -21,5 +21,9 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "test:unit": "jest --coverage"
+  },
+  "dependencies": {
+    "@soyhuce/react-utils.hooks.use-event-listener": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-isomorphic-layout-effect": "workspace:*"
   }
 }

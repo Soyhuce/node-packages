@@ -21,5 +21,9 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "test:unit": "jest --coverage"
+  },
+  "dependencies": {
+    "@soyhuce/react-utils.hooks.use-event-listener": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-isomorphic-layout-effect": "workspace:*"
   }
 }
