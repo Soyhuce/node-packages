@@ -21,5 +21,13 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "test:unit": "jest --coverage"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.7",
+    "@types/lodash": "^4.14.182"
+
   }
 }
