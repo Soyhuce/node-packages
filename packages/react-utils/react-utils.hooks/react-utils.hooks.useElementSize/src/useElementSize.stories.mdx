@@ -1,0 +1,28 @@
+import { useState } from 'react'
+import { Meta, Canvas, Story } from '@storybook/addon-docs'
+
+import Readme from '../README.md'
+import { useElementSize } from './useElementSize.ts'
+
+<Meta title='react-utils/Hooks/useElementSize' />
+
+<Readme />
+
+export const Template = (args) => {
+  const [squareRef, { width, height }] = useElementSize()
+  return (
+    <div>
+      <div
+        ref={squareRef}
+        style={{ backgroundColor: 'red', width: args.width, height: args.height }}
+      ></div>
+      <pre>{JSON.stringify({ width, height })}</pre>
+    </div>
+  )
+}
+
+<Canvas>
+  <Story name='Playground' args={{ width: 200, height: 200 }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>

@@ -251,7 +251,7 @@ importers:
       '@soyhuce/react-utils.hooks.use-ssr': link:../react-utils.hooks.useSSR
       '@soyhuce/react-utils.hooks.use-steps': link:../react-utils.hooks.useSteps
       '@soyhuce/react-utils.hooks.use-timeout': link:../react-utils.hooks.useTimeout
-      '@soyhuce/react-utils.hooks.use-window-size': link:../react-utils.hooks.useWindow
+      '@soyhuce/react-utils.hooks.use-window-size': link:../react-utils.hooks.useWindowSize
 
   packages/react-utils/react-utils.hooks/react-utils.hooks.useDebounce:
     specifiers:
@@ -326,7 +326,7 @@ importers:
     dependencies:
       '@soyhuce/react-utils.hooks.use-isomorphic-layout-effect': link:../react-utils.hooks.useIsomorphicLayoutEffect
 
-  packages/react-utils/react-utils.hooks/react-utils.hooks.useWindow:
+  packages/react-utils/react-utils.hooks/react-utils.hooks.useWindowSize:
     specifiers:
       '@soyhuce/react-utils.hooks.use-event-listener': workspace:*
       '@soyhuce/react-utils.hooks.use-isomorphic-layout-effect': workspace:*
