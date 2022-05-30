@@ -131,7 +131,7 @@ jobs:
       - name: save e2e test results
         timeout-minutes: 120
         if: always()
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: playwright-report
           path: playwright-report
