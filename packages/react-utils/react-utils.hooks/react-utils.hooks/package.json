@@ -1,0 +1,41 @@
+{
+  "name": "@soyhuce/react-utils.hooks",
+  "description": "React utility library",
+  "author": "Soyhuce <techteam@soyhuce.fr> (https://soyhuce.fr)",
+  "version": "2.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
+  "keywords": [
+    "utility",
+    "libray",
+    "soyhuce",
+    "react"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@soyhuce/react-utils.hooks.use-debounce": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-element-size": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-event-listener": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-intersection-observer": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-interval": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-isomorphic-layout-effect": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-local-storage": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-locked-scroll": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-media-query": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-mounted": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-on-click-outside": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-ssr": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-steps": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-timeout": "workspace:*",
+    "@soyhuce/react-utils.hooks.use-window-size": "workspace:*"
+  }
+}

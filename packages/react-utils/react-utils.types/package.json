@@ -1,0 +1,24 @@
+{
+  "name": "@soyhuce/react-utils.types",
+  "description": "React types library",
+  "author": "Soyhuce <techteam@soyhuce.fr> (https://soyhuce.fr)",
+  "version": "2.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
+  "keywords": [
+    "types",
+    "libray",
+    "soyhuce",
+    "react"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  }
+}

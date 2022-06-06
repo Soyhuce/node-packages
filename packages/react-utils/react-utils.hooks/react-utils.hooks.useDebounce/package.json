@@ -1,0 +1,33 @@
+{
+  "name": "@soyhuce/react-utils.hooks.use-debounce",
+  "description": "React utility library",
+  "author": "Soyhuce <techteam@soyhuce.fr> (https://soyhuce.fr)",
+  "version": "2.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
+  "keywords": [
+    "utility",
+    "libray",
+    "soyhuce",
+    "react"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test:unit": "jest --coverage"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.7",
+    "@types/lodash": "^4.14.182"
+
+  }
+}
