@@ -5,14 +5,10 @@ import degit from 'degit'
 
 import { CURR_DIR, AVAILABLE_TEMPLATES } from '../constants'
 
-interface CreateArgs {
-  name: string
-  template: string
-}
-
-const createCmd: CommandModule<Record<string, never>, CreateArgs> = {
+const createCmd: CommandModule<Record<string, never>, Record<string, never>> = {
   command: 'create [name] [template]',
   describe: 'Create a project based on a template',
+  aliases: 'c',
   builder: {
     name: {
       type: 'string',
