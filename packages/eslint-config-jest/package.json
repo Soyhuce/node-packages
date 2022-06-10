@@ -11,7 +11,7 @@
     "eslint-config-jest"
   ],
   "dependencies": {
-    "eslint-plugin-jest": "^26.2.2",
-    "eslint-plugin-testing-library": "^5.5.0"
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-testing-library": "^5.5.1"
   }
 }
