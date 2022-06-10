@@ -2,7 +2,7 @@
   "name": "@soyhuce/stylelint-config",
   "description": "A shareable Stylelint configuration",
   "author": "Soyhuce <techteam@soyhuce.fr> (https://soyhuce.fr)",
-  "version": "2.0.0",
+  "version": "2.1.1",
   "license": "MIT",
   "main": "index.js",
   "keywords": [
