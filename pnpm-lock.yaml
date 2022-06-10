@@ -227,14 +227,14 @@ importers:
       '@commitlint/cz-commitlint': ^17.0.0
       '@next/eslint-plugin-next': ^12.1.6
       '@playwright/test': ^1.22.2
-      '@soyhuce/commitlint-config': ^2.0.0
+      '@soyhuce/commitlint-config': ^2.1.1
       '@soyhuce/css-reset': ^2.0.0
-      '@soyhuce/eslint-config': ^2.0.0
-      '@soyhuce/eslint-config-jest': ^2.0.0
+      '@soyhuce/eslint-config': ^2.1.1
+      '@soyhuce/eslint-config-jest': ^2.1.1
       '@soyhuce/eslint-config-react': ^2.0.0
       '@soyhuce/playwright-config': ^2.1.0
       '@soyhuce/prettier-config': ^2.0.0
-      '@soyhuce/stylelint-config': ^2.0.0
+      '@soyhuce/stylelint-config': ^2.1.1
       '@soyhuce/stylelint-config-scss': ^2.0.0
       '@soyhuce/stylelint-config-tailwindcss': ^2.0.0
       '@testing-library/jest-dom': ^5.16.4
